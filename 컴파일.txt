@@ -1,0 +1,10 @@
+﻿현재 폴더표시를 위해 필요 : vfolder.c/vfolder.h
+gcc -o shell myshell.c vfolder.c
+현재는 shell프로그램과 같은 폴더에 있어야함.
+copyfile.c(파일 복사) -> gcc -o cp copyfile.c
+lotto.c(로또) -> gcc -o lotto lotto.c -lcurses
+chat_serv.c(채팅 서버) -> gcc -o chatserver chat_serv.c -lpthread
+chat_clnt.c(채팅 클라이언트) -> gcc -o chatclient chat_clnt.c -lpthread
+calc.c(정수 계산기) -> gcc -o calc calc.c
+ls.c(ls) -> gcc -o ls ls.c -lcurses
+wc.c(단어 세기) -> gcc -o wc wc.c -lpthread
